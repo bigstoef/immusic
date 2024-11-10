@@ -1,5 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
+import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify' 
 
 
 export default defineNuxtConfig({
@@ -11,9 +11,9 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  //Add this to the previously done work in nuxt.config.ts
+
   css: ['~/assets/css/main.css'],
-  //Add Pinia
+
   modules: [(_options, nuxt) => {
     nuxt.hooks.hook('vite:extendConfig', (config) => {
       // @ts-expect-error
