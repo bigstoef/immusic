@@ -1,5 +1,6 @@
 <template>
-  <div class="bg-red-100">
+  <div>
     This is your boiler plate
   </div>
+  
 </template>
