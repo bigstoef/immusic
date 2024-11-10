@@ -9,5 +9,7 @@ export default defineNuxtConfig({
     },
   },
   //Add this to the previously done work in nuxt.config.ts
-  css: ['~/assets/css/main.css']
+  css: ['~/assets/css/main.css'],
+  //Add Pinia
+  modules: ['@pinia/nuxt'],
 })
