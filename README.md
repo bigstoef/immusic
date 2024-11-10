@@ -1,5 +1,5 @@
 
-# Vue 3 + Nuxt 3 Boilerplate
+# Vue 3 + Nuxt 3 + Pinia + Vuetify Boilerplate
 
 Welcome to my Vue 3 + Nuxt 3 Boilerplate! This starter project is designed to provide a solid foundation for any new Vue application, combining modern tools and best practices for a powerful, scalable, and efficient development setup.
 
