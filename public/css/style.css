@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'glacial'; /* A name to reference your font */
+    src: url('../fonts/GlacialIndifference-Regular.otf') format('opentype');
+    font-weight: normal; /* Adjust if you have different weights */
+    font-style: normal;  /* Adjust if you have different styles (e.g., italic) */
+}
+
+@font-face {
+    font-family: 'hightide'; /* A name to reference your font */
+    src: url('../fonts/hightide.otf') format('opentype');
+    font-weight: normal; /* Adjust if you have different weights */
+    font-style: normal;  /* Adjust if you have different styles (e.g., italic) */
+}
+
+html {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'glacial', sans-serif; /* Fallback to sans-serif if the font fails to load */
+}
+
+.hightide {
+    font-family: 'hightide', sans-serif; /* Fallback to sans-serif if the font fails to load */
+}
+
+body {
+    background-color: #332924;
+    margin: 0px;
+    padding: 0px;
+}
+
+.content {
+    max-width: 1000px;
+    background-color: #F4EFE4;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.content-inner {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.header-img {
+    margin: auto auto -20px;
+    display: block;
+    max-width: 100%;
+}
+
+.menu-wrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0px auto 50px auto;
+    align-items: flex-start;
+}
+
+.content-info {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    margin-top: -50px
+}
+
+p {
+    font-family: 'glacial', sans-serif; /* Fallback to sans-serif if the font fails to load */
+}
+
+li {
+    font-family: 'glacial', sans-serif; /* Fallback to sans-serif if the font fails to load */
+}
+
+h1 {
+    font-family: 'hightide', sans-serif; /* Fallback to sans-serif if the font fails to load */
+}
+
+h2 {
+    font-family: 'hightide', sans-serif; /* Fallback to sans-serif if the font fails to load */
+}
+
+h3 {
+    font-family: 'hightide', sans-serif; /* Fallback to sans-serif if the font fails to load */
+}
+
+@media (min-width: 768px) {
+    .content-inner {
+        flex-wrap: nowrap;
+    }
+}
